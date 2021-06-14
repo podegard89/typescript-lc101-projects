@@ -63,8 +63,10 @@ class Spacecraft {
 
 // Create an instance of the class here:
 let spaceShuttle = new Spacecraft('Determination', 17500);
+// step 5
 let mars = new SpaceLocation('Mars', 225000000);
 let moon = new SpaceLocation("The Moon", 384400);
+
 // mars is a SpaceLocation object, so we can pass it in as an argument in the printDaysToLocation method
 spaceShuttle.printDaysToLocation(mars);
 spaceShuttle.printDaysToLocation(moon);
